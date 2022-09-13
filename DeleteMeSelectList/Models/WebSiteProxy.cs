@@ -5,6 +5,11 @@
         public int WebSiteId { get; set; }
         public string WebSiteName { get; set; }
 
+        public WebSiteProxy()
+        {
+
+        }
+
         public WebSiteProxy(int WebSiteId, string WebSiteName)
         {
             this.WebSiteId = WebSiteId;
